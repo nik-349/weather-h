@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+button {
+    display: block;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

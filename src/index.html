@@ -11,11 +11,13 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
+  <body class="background">
+      <div class="wrapper">
 
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <include src="./partials/header.html"></include>
+    
+
+    </div>
     <script src="./index.js"></script>
-  </body>
+ </body>
 </html>

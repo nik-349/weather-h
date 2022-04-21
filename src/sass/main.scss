@@ -3,5 +3,13 @@
  * Все паршалы подключаются сюда.
  */
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+// Стили 
+@import './utils/hidden';
+@import './utils/reset';
+
+@import './components/container';
+@import './components/wrapper';
+@import './layout/background';
+
+
+@import './layout/header';

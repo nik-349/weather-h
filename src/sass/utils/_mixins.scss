@@ -1,0 +1,15 @@
+// шрифт - @include font ($fs, $fz, $fw, $lh, $ls);
+@mixin font($fs, $fz, $fw, $lh, $ls) {
+    font-style: $fs;
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh / $fz;
+    letter-spacing: $ls;
+}
+
+// центрований флекс - @include centeredFlex($type: flex);
+@mixin centeredFlex($type: flex) {
+    display: $type;
+    align-items: center;
+    justify-content: center;
+}
