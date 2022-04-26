@@ -59,11 +59,29 @@ display: none;
 display: none;
         }
 }
+.favorites__star{
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    fill: #b0fcfd;
+            @media screen and (min-width: 768px) {
+                display: none;
+            
+            }
+            
+            @media screen and (min-width: 1024px) {
+                display: none;
+            }
+}
+.favorites__star:hover{
+    fill: gold;
+}
 .form__input{
     position: relative;
 }
 ::placeholder{
-    // padding: 0 20px;
     color: #b0fcfd;
 }
 input{
@@ -86,6 +104,7 @@ input{
             }
 }
 .weather-country{
+    position: relative;
         margin-top: 10px;
         width: 190px;
         height: 100px;
