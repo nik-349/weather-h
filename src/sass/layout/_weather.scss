@@ -41,12 +41,7 @@
 }
 
 
-.air__svg{
-    width: 20px;
-    height: 20px;
-    fill: rgb(46, 134, 185);
 
-}
 .onedrive__svg {
     width: 25px;
     height: 25px;
@@ -77,7 +72,6 @@
     justify-content: center;
     width: 26px;
     height: 26px;
-    background-color: #ffffff;
     border-radius: 50px;
             @media screen and (min-width: 768px) {
 display: none;
@@ -96,4 +90,14 @@ display: none;
     height: 15px;
     fill: dimgrey;
 }
-
+.air__svg {
+    width: 20px;
+    height: 20px;
+    fill: dimgrey;
+}
+.arrow__index--svg:hover{
+    fill: #0e5d92;
+}
+.air__svg:hover{
+    fill: #0e5d92;
+}
