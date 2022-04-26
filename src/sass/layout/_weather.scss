@@ -43,8 +43,11 @@
     margin-top: 10px;
     width: 300px;
     height: 25px;
-    border: solid 1px #ffffff;
+    // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
+                        background-image: url('../images/blue.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
         @media screen and (min-width: 768px) {
 display: none;
         
@@ -133,7 +136,7 @@ display: none;
     // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
 
-                    background-image: url('../images/swit.jpg');
+                    background-image: url('../images/blue.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
     @media screen and (min-width: 768px) {
