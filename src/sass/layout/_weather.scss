@@ -62,9 +62,10 @@ display: none;
 .form__input{
     position: relative;
 }
-// ::placeholder{
-//     padding: 0 20px;
-// }
+::placeholder{
+    // padding: 0 20px;
+    color: #b0fcfd;
+}
 input{
     padding-left: 20px;
 }
