@@ -1,0 +1,41 @@
+.back{
+    position: relative;
+    // margin-top: 50px;
+    // border: solid 1.5px #ff6600;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;    
+}
+.footer__svg{
+    width: 25px;
+    height: 25px;
+    
+}
+.footer__color--one {
+    position: absolute;
+    right: 520px;
+    top: 31px;
+fill: #ff6600;
+transform: rotate(43deg);
+}
+.footer__color--two {
+    position: absolute;
+    right: 534px;
+    top:18px;
+fill: aqua;
+transform: rotate(45deg);
+}
+.footer__color--three {
+    position: absolute;
+    top: 41px;
+    right: 536px;
+fill: red;
+transform: rotate(315deg);
+}
+.footer__color--four {
+    position: absolute;
+    right: 550px;
+    top: 28px;
+fill: chartreuse;
+transform: rotate(-46deg);
+}

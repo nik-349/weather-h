@@ -3,20 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заголовок страницы</title>
+    <title>Nik</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
   </head>
   <body class="background">
       <div class="wrapper">
-
-    <include src="./partials/header.html"></include>
-    
-
+    <header class="container" id="header-en">
+        <div class="navigation__bar">
+            <a class="header__logo header__logo--list" href="./index.html">Nik<span
+                        class="header__logo--span">GavriluK</span></a>
+            <div class="flex-container">
+                <a class="navigation__bar--link" href="">Summary</a>
+                <a class="navigation__bar--link" href="./partials/weather.html">Project</a>
+                <a class="navigation__bar--link" href="">Networks</a>
+            </div>
+            <button class="button__nav" type="button" id="language-button"><svg class="button__svg--lang">
+                    <use class="" href="./images/sprite.svg#icon-global"></use>
+                </svg></button>
+        </div>
+        <h1 class="flex-hello text-about-me"><span class="sp-h">H</span><span class="sp-e">e</span><span class="sp-ll">ll</span><span class="sp-o">o</span></h1>
+        <div class="overlay-language visually-hidden" id="overlay-lang-container">
+            <p class="lang__module visually-hidden">Мова</p>
+            <p class="lang__module ">Language</p>
+            <div class="land__module--block">
+                <a class="lang__module--href" href="">UK</a>
+                <a class="lang__module--href" href="./index.html">EN</a>
+            </div>
+        </div>
+    </header>
+    <section class="about container">
+        <!-- <div class="content-about">
+        <p class="text-about-me"><span class="sp-h">H</span><span class="sp-e">e</span><span class="sp-ll">ll</span><span class="sp-o">o</span>, Welcome to my small project - Business card site, summarizing me, my knowledge and skills in development.
+        My name is Nikolai. I come from Ukraine. Since 2020, I decided to change my life and become a JavaScript Developer.
+        Passed online training at the GoIT school, Full Stack direction.</p>
+        </div> -->
+         <div class="battery-container">
+                    <p class="energy energy-1"></p>
+                    <p class="energy energy-2"></p>
+                    <p class="energy energy-3"></p>
+                    <p class="energy energy-4"></p>
+                    <p class="energy energy-5"></p>
+                    <p class="energy energy-6"></p>
+                    <p class="energy energy-7"></p>
+                    <p class="energy energy-8"></p>
+                    <p class="energy energy-9"></p>
+                    <p class="energy energy-10"></p>
+                    <p class="energy energy-11"></p>
+                    <p class="energy energy-12"></p>
+                    <p class="energy energy-13"></p>
+                    <p class="energy energy-14"></p>
+                    <p class="energy energy-15"></p>
+                    <p class="logo-anim"></p>
+                <!-- <svg class="battery">
+                     <use href="./images/sprite.svg#icon-atom"></use>
+                </svg> -->
+         </div>
+        <div class="content-about">
+            <!-- <p class="text-about-me"><span class="sp-h">H</span><span class="sp-e">e</span><span class="sp-ll">ll</span><span class="sp-o">o</span>, Welcome
+            to my small project - Business card site, summarizing me, my knowledge and skills in development.
+            My name is Nikolai. I come from Ukraine. Since 2020, I decided to change my life and become a JavaScript Developer.
+            Passed online training at the GoIT school, Full Stack direction.</p> -->
+     </div>
+    </section>
+    <!-- <include src="./partials/header.html"></include> -->
+    <include src="./partials/footer.html"></include>
     </div>
     <script src="./index.js"></script>
  </body>

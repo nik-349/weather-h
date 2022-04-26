@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+</head>
+<body class="background">
+   <header id="header-uk">
+        <div class="navigation__bar container">
+            <svg class="logo__svg">
+                <use class="logo__svg--image" href="../images/sprite.svg#icon-apachekafka"></use>
+            </svg>
+            <li class="header__logo--list"><a class="header__logo" href="../index.html">Nik<span
+                        class="header__logo--span">Gavriluk</span></a></li>
+            <ul class="flex-container">
+                <li class="navigation__bar--list"><a class="navigation__bar--link" href="">Галерея</a></li>
+                <li class="navigation__bar--list"><a class="navigation__bar--link" href="">Iсторiя</a></li>
+                <li class="navigation__bar--list"><a class="navigation__bar--link" href="">Робота</a></li>
+                <li id="menu-line">----</li>
+            </ul>
+            <button class="button__nav" type="button"><svg class="button__svg--login">
+                    <use class="" href="../images/sprite.svg#icon-key"></use>
+                </svg></button>
+            <button class="button__nav" type="button" id="language-button"><svg class="button__svg--lang">
+                    <use class="" href="../images/sprite.svg#icon-global"></use>
+                </svg></button>
+        </div>
+        <div class="overlay-language visually-hidden" id="overlay-lang-container">
+            <p class="lang__module">Мова</p>
+            <p class="lang__module visually-hidden">Language</p>
+            <div class="land__module--block">
+                <a class="lang__module--href" href="./headerukraine.html">UK</a>
+                <a class="lang__module--href" href="../index.html">EN</a>
+            </div>
+        </div>
+    </header>
+    <script src="../index.js"></script>
+ </body>
+</html>
