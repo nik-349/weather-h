@@ -41,13 +41,15 @@
 }
 .search-country{
     margin-top: 10px;
-    width: 300px;
+    width: 150px;
     height: 25px;
-    // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
-                        background-image: url('../images/blue.jpg');
-                        background-repeat: no-repeat;
-                        background-size: cover;
+    background-image: url('../images/blue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+    
         @media screen and (min-width: 768px) {
 display: none;
         
@@ -57,11 +59,35 @@ display: none;
 display: none;
         }
 }
+.form__input{
+    position: relative;
+}
+// ::placeholder{
+//     padding: 0 20px;
+// }
+input{
+    padding-left: 20px;
+}
+.location-svg{
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    fill: #b0fcfd;
+            @media screen and (min-width: 768px) {
+                display: none;
+            
+            }
+            
+            @media screen and (min-width: 1024px) {
+                display: none;
+            }
+}
 .weather-country{
         margin-top: 10px;
         width: 190px;
         height: 100px;
-        // border: solid 1px #ffffff;
         border-radius: 10px 10px 10px 10px;
         background-image: url('../images/blue.jpg');
         background-repeat: no-repeat;
@@ -85,7 +111,6 @@ display: none;
     margin-top: 10px;
     width: 100px;
     height: 200px;
-    // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
             background-image: url('../images/blue.jpg');
             background-repeat: no-repeat;
@@ -108,7 +133,6 @@ display: none;
 .about__day {
     width: 190px;
     height: 80px;
-    // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
 
                 background-image: url('../images/blue.jpg');
@@ -133,7 +157,6 @@ display: none;
     margin-top: 10px;
     width: 65px;
     height: 80px;
-    // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
 
                     background-image: url('../images/blue.jpg');
@@ -152,7 +175,6 @@ display: none;
             margin-top: 10px;
             width: 300px;
             height: 450px;
-            // border: solid 1px #ffffff;
             border-radius: 10px 10px 10px 10px;
                                 background-image: url('../images/swit.jpg');
                                 background-repeat: no-repeat;
@@ -244,6 +266,7 @@ display: none;
 //========================Footer============================//
 
 .footer__container{
+    margin-top: 10px;
     width: 300px;
     height: 70px;
         border-radius: 10px 10px 10px 10px;
@@ -251,5 +274,13 @@ display: none;
         background-image: url('../images/swit.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+                @media screen and (min-width: 768px) {
+                    width: 740px;
+                
+                }
+                
+                @media screen and (min-width: 1024px) {
+                    width: 1000px;
+                }
 }
 
