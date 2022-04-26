@@ -1,6 +1,26 @@
-.back-first{
-        width: 100%;
-        height: 2200px;
-    background-image: url('/images/aldain-austria.jpg');
+
+
+
+.back-first {
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/aldain-austria-mobile.jpg');
     background-repeat: no-repeat;
+    // background-size: cover;
+
+    @media screen and (min-width: 768px) {
+        background-image: url('/images/aldain-austria-desktop.jpg');
+        background-size: cover;
+    }
+
+    @media screen and (min-width: 1024px) {
+        // width: 1000px;
+        // height: 865px;
+        background-image: url('/images/aldain-austria-desktop.jpg');
+        // background-size: contain;
+        background-size: cover;
+    }
 }
+
+
+
