@@ -63,7 +63,7 @@ display: none;
         height: 100px;
         // border: solid 1px #ffffff;
         border-radius: 10px 10px 10px 10px;
-        background-image: url('../images/swit.jpg');
+        background-image: url('../images/blue.jpg');
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -87,7 +87,7 @@ display: none;
     height: 200px;
     // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
-            background-image: url('../images/swit.jpg');
+            background-image: url('../images/blue.jpg');
             background-repeat: no-repeat;
             background-size: cover;
 
@@ -111,7 +111,7 @@ display: none;
     // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
 
-                background-image: url('../images/swit.jpg');
+                background-image: url('../images/blue.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
     grid-row-start: 2;
@@ -147,6 +147,24 @@ display: none;
     @media screen and (min-width: 1024px) {
         display: none;
     }
+}
+.other__info{
+            margin-top: 10px;
+            width: 300px;
+            height: 450px;
+            // border: solid 1px #ffffff;
+            border-radius: 10px 10px 10px 10px;
+                                background-image: url('../images/swit.jpg');
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                @media screen and (min-width: 768px) {
+                    display: none;
+                
+                }
+                
+                @media screen and (min-width: 1024px) {
+                    display: none;
+                }
 }
 
 .container__day{
@@ -223,6 +241,15 @@ display: none;
     fill: #0e5d92;
 }
 
+//========================Footer============================//
 
-
+.footer__container{
+    width: 300px;
+    height: 70px;
+        border-radius: 10px 10px 10px 10px;
+        
+        background-image: url('../images/swit.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 
