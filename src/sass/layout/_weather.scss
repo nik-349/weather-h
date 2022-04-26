@@ -60,6 +60,9 @@ display: none;
         height: 100px;
         border: solid 1px #ffffff;
         border-radius: 10px 10px 10px 10px;
+        background-image: url('../images/swit.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
 
             grid-row-start: 1;
             grid-column-start: 1;
@@ -81,6 +84,9 @@ display: none;
     height: 200px;
     border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
+            background-image: url('../images/green.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
 
             grid-row-start: 1;
             grid-column-start: 2;
@@ -102,6 +108,9 @@ display: none;
     border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
 
+                background-image: url('../images/sweet.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
     grid-row-start: 2;
     grid-column-start: 1;
     
