@@ -101,3 +101,37 @@ display: none;
 .air__svg:hover{
     fill: #0e5d92;
 }
+.search-country{
+    margin-top: 50px;
+}
+.location__svg{
+    width: 200px;
+    height: 200px;
+  fill: rgb(140, 222, 224);
+
+animation-name: changeSize;
+animation-duration: 2500ms;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes changeSize {
+    0% {
+        fill: rgb(140, 222, 224);
+    }
+
+    // 50% {
+    //     fill: dimgrey;;
+    // }
+
+    100% {
+        fill: dimgrey;
+    }
+}
+.button-search{
+    width: 200px;
+    height: 200px;
+    background: transparent;
+}
+
+
