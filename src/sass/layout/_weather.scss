@@ -84,7 +84,7 @@ display: none;
     height: 200px;
     // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
-            background-image: url('../images/green.jpg');
+            background-image: url('../images/swit.jpg');
             background-repeat: no-repeat;
             background-size: cover;
 
@@ -108,7 +108,7 @@ display: none;
     // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
 
-                background-image: url('../images/sweet.jpg');
+                background-image: url('../images/swit.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
     grid-row-start: 2;
@@ -130,9 +130,12 @@ display: none;
     margin-top: 10px;
     width: 65px;
     height: 80px;
-    border: solid 1px #ffffff;
+    // border: solid 1px #ffffff;
     border-radius: 10px 10px 10px 10px;
 
+                    background-image: url('../images/swit.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
     @media screen and (min-width: 768px) {
         display: none;
 
