@@ -1,22 +1,22 @@
 {
-  "name": "web-site-nik",
+  "name": "weather",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://nik-349.github.io/-WebSiteNik",
+  "homepage": "https://nik-349.github.io/weather-h",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /-WebSiteNik/"
+    "build": "parcel build src/*.html --public-url /weather-h/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nik-349/-WebSiteNik.git"
+    "url": "git+https://github.com/nik-349/weather-h.git"
   },
   "keywords": [],
   "author": "Nik Gavriluk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nik-349/-WebSiteNik/issues"
+    "url": "https://github.com/nik-349/weather-h/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
