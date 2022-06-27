@@ -1,7 +1,8 @@
 export const refs = {
-    languageIcon: document.querySelector('#language-button'),
-    overlayLang: document.querySelector('#overlay-lang-container'),
-    langEn: document.querySelector('#header-en'),
-    langUk: document.querySelector('#header-uk'),
-    aboutText: document.querySelector('.text-about-me'),
-}
+  singIn: document.querySelector('.sing__in--backdrop'),
+  loginButton: document.querySelector('.login__button'),
+  backdrop: document.querySelector('.sing__in--backdrop'),
+  inputSerach: document.querySelector('.search__country--input'),
+  burgerMenu: document.querySelector('.burger__menu'),
+  burgerMenuList: document.querySelector('.module__burger'),
+};

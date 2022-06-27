@@ -1,25 +1,38 @@
-import { refs } from "./refs";
+import { refs } from './refs';
+const throttle = require('lodash.throttle');
+const debounce = require('lodash.debounce');
 
+const throttledInput = debounce(onChangeInput, 3000);
+refs.loginButton.addEventListener('click', onClickLogin);
+refs.inputSerach.addEventListener('input', throttledInput);
+refs.burgerMenu.addEventListener('click', onClickBurgerMenu);
 
-refs.languageIcon.addEventListener('click', changeLang);
-refs.aboutText.addEventListener('click', textColor)
-
-function changeLang(e) {
-    refs.overlayLang.classList.toggle('visually-hidden')
-    
+function onClickBurgerMenu() {
+  refs.backdrop.addEventListener('click', onClickBackdrop);
+  refs.burgerMenuList.classList.toggle('visually-hidden');
 }
 
-function textColor(e) {
-   let col = refs.aboutText.style.color = `#${Math.floor(Math.random() * 16777215).toString(16)}`
-console.log(col)
+function onClickLogin() {
+  refs.backdrop.addEventListener('click', onClickBackdrop);
+  refs.singIn.classList.toggle('visually-hidden');
 }
-//==================================================================//
 
-const fn = arr => arr.map(el => {
-  const item = document.createElement('div');
-  item.textContent = el;
+function onClickBackdrop(event) {
+  if (event.currentTarget !== event.target) {
+    return;
+  }
+  onClickLogin();
+}
 
-  return item;
- });
+const KEY = '94f78073bd334e8ab23192239222706';
 
-console.log(fn(['html', 'css', 'js', 'react']));
+function onChangeInput(e) {
+  let country = e.target.value;
+  const URL = `http://api.weatherapi.com/v1/current.json?key=${KEY}&q=${country}`;
+
+  const fe = fetch(URL)
+    .then(response => {
+      return response.json();
+    })
+    .then(console.log);
+}

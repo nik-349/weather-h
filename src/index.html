@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,71 +12,88 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet">
   </head>
-  <body class="background">
-      <div class="wrapper">
-    <header class="container" id="header-en">
-        <div class="navigation__bar">
-            <a class="header__logo header__logo--list" href="./index.html">Nik<span
-                        class="header__logo--span">GavriluK</span></a>
-            <div class="flex-container">
-                <a class="navigation__bar--link" href="">Summary</a>
-                <a class="navigation__bar--link" href="./partials/weather.html">Project</a>
-                <a class="navigation__bar--link" href="">Networks</a>
-            </div>
-            <button class="button__nav" type="button" id="language-button"><svg class="button__svg--lang">
-                    <use class="" href="./images/sprite.svg#icon-global"></use>
-                </svg></button>
+  <body class="background wrapper">
+    
+    <div class="navigation__bar ">
+      <div class="back container ">
+      <header class="header__navigation  ">
+        <div class="burger__menu ">
+          <span class="burger__menu-line"></span>
+          <span class="burger__menu-line"></span>
+          <span class="burger__menu-line"></span>
         </div>
-        <h1 class="flex-hello text-about-me"><span class="sp-h">H</span><span class="sp-e">e</span><span class="sp-ll">ll</span><span class="sp-o">o</span></h1>
-        <div class="overlay-language visually-hidden" id="overlay-lang-container">
-            <p class="lang__module visually-hidden">Мова</p>
-            <p class="lang__module ">Language</p>
-            <div class="land__module--block">
-                <a class="lang__module--href" href="">UK</a>
-                <a class="lang__module--href" href="./index.html">EN</a>
-            </div>
+        <div class="navigation__list">
+          <ul class="navigation__list--container">
+            <button class="navigation__list--item login__button general__text--style" type="button" href="">SING IN</button>
+            <!-- <a class="navigation__list--item general__text--style" href="">SEARCH</a> -->
+            <input class="search__country--input" type="text" placeholder="search country">
+          </ul>
         </div>
-    </header>
-    <section class="about container">
-        <!-- <div class="content-about">
-        <p class="text-about-me"><span class="sp-h">H</span><span class="sp-e">e</span><span class="sp-ll">ll</span><span class="sp-o">o</span>, Welcome to my small project - Business card site, summarizing me, my knowledge and skills in development.
-        My name is Nikolai. I come from Ukraine. Since 2020, I decided to change my life and become a JavaScript Developer.
-        Passed online training at the GoIT school, Full Stack direction.</p>
-        </div> -->
-         <div class="battery-container">
-                    <p class="energy energy-1"></p>
-                    <p class="energy energy-2"></p>
-                    <p class="energy energy-3"></p>
-                    <p class="energy energy-4"></p>
-                    <p class="energy energy-5"></p>
-                    <p class="energy energy-6"></p>
-                    <p class="energy energy-7"></p>
-                    <p class="energy energy-8"></p>
-                    <p class="energy energy-9"></p>
-                    <p class="energy energy-10"></p>
-                    <p class="energy energy-11"></p>
-                    <p class="energy energy-12"></p>
-                    <p class="energy energy-13"></p>
-                    <p class="energy energy-14"></p>
-                    <p class="energy energy-15"></p>
-                    <p class="logo-anim"></p>
-                <!-- <svg class="battery">
-                     <use href="./images/sprite.svg#icon-atom"></use>
-                </svg> -->
-         </div>
-        <div class="content-about">
-            <a class="navigation__bar--link" href="./partials/weather.html">Project</a>
-            <!-- <p class="text-about-me"><span class="sp-h">H</span><span class="sp-e">e</span><span class="sp-ll">ll</span><span class="sp-o">o</span>, Welcome
-            to my small project - Business card site, summarizing me, my knowledge and skills in development.
-            My name is Nikolai. I come from Ukraine. Since 2020, I decided to change my life and become a JavaScript Developer.
-            Passed online training at the GoIT school, Full Stack direction.</p> -->
-     </div>
-    </section>
-    <!-- <include src="./partials/header.html"></include> -->
-    <include src="./partials/footer.html"></include>
+        <a class="logo general__text--style" href=""><span class="logo__letter general__text--style">W</span>eather</a>
+        <div class="social__list">
+          <ul class="social__list--container">
+            <a class="social__list--icon" href="https://github.com/nik-349/weather-h.git"><svg class="social__link">
+              <use class="" href="./images/sprite.svg#icon-git"></use>
+            </svg></a>
+            <a class="social__list--icon" href="https://www.linkedin.com/in/nick-gavriluk-682983238/"><svg class="social__link">
+              <use class="" href="./images/sprite.svg#icon-linkedin2"></use>
+            </svg></a>
+            <a class="social__list--icon" href="https://www.instagram.com/nikolaj.gavriluk/"><svg class="social__link">
+              <use class="" href="./images/sprite.svg#icon-instagram"></use>
+            </svg></a>
+          </ul>
+        </div>
+        
+      </header>
+      <section class="module__weather">
+      <div class="module__burger visually-hidden"></div>
+      <div class="module__weather--country">
+      <div class="module__weather--info day"></div>
+      <div class="module__weather--info other"></div>
+      <div class="module__weather--info week">
+        <div class="week__day">
+          <p class="general__text--style ">MON</p>
+        </div>
+        <div class="week__day">
+          <p class="general__text--style ">TUE</p>
+        </div>
+        <div class="week__day">
+          <p class="general__text--style ">WED</p>
+        </div>
+        <div class="week__day">
+          <p class="general__text--style ">THU</p>
+        </div>
+        <div class="week__day">
+          <p class="general__text--style ">FRI</p>
+        </div>
+        <div class="week__day">
+          <p class="general__text--style ">SAT</p>
+        </div>
+        <div class="week__day">
+          <p class="general__text--style ">SUN</p>
+        </div>
+      </div>
+      </div>
+      
+     </section>
+      </div>
+
+
+    <div class="sing__in--backdrop visually-hidden">
+      <div class="sing__in--form ">
+        <h1 class="general__text--style">Authorization</h1>
+        <form action="">
+          <input class="input__form" type="text" name="login" placeholder="Login">
+          <input class="input__form" type="text" name="password" placeholder="Password">
+          <button class="login__button" type="button">Sing in</button> 
+        </form>
+        <button class="login__button" type="button">Sing up</button>
+      </div>
     </div>
-    <script src="./index.js"></script>
+      
+    </div>
  </body>
+<script src="./index.js"></script>
 </html>
