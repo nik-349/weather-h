@@ -1,8 +1,38 @@
-.background 
- {
-    background: linear-gradient(0deg, rgba(72, 80, 71, 1) 26%, rgba(91, 90, 78, 1) 33%, rgba(185, 165, 144, 1) 86%);
-    background-repeat: no-repeat;
-};
+.background {
+    background-image: url('/images/sky.jpg');
+    width: 320px;
+    height: auto;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+
+    @media screen and (min-width: 768px) {
+
+        background-image: url('/images/sky.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        border-radius: 13px;
+        width: 768px;
+        height: 679px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image: url('/images/sky.jpg');
+        width: 1200px;
+        height: 679px;
+
+    }
+}
+// .background 
+//  {
+//     background: linear-gradient(0deg, rgba(72, 80, 71, 1) 26%, rgba(91, 90, 78, 1) 33%, rgba(185, 165, 144, 1) 86%);
+//     background-repeat: no-repeat;
+// };
 
 
     
