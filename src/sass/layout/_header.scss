@@ -278,6 +278,8 @@
     // height: 21px;
     cursor: pointer;
     // z-index: 3;
+    margin-left: 15px;
+    margin-top: 20px;
     @media screen and (min-width: 768px) {
         margin-left: 20px;
     }
@@ -335,7 +337,8 @@
     height: 30px;
     margin-top: 2px;
     margin-left: 5px;
-    fill: antiquewhite;
+    fill: #3792e2;
+    // fill: antiquewhite;
     animation: rotate-center 1s ease 0s 1 normal none;
     
 }
@@ -356,12 +359,15 @@
     // left: 45px;
     width: 40px;
     height: 40px;
-    fill: antiquewhite;
+    fill: #5cc9e7;
+    // fill: antiquewhite;
 }
 //==========================================Weather========================================//
 
 
 .module__weather{
+    display: flex;
+    justify-content: center;
 
     @media screen and (min-width: 768px) {
         // padding-right: 5px;
@@ -381,7 +387,7 @@
     }
 
 .module__weather--country{
-    width: 100px;
+    width: 270px;
     height: 100px;
     @media screen and (min-width: 768px) {
         margin-left: 160px;
@@ -414,14 +420,15 @@
     justify-content: center;
     height: 160px;
     margin-top: 20px;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.10);
+    border-radius: 22px;
+    background: rgba(174, 174, 174, 0.1);
     backdrop-filter: blur(2px);
 }
 .other{
     margin-top: 7px;
     height: 160px;
-    background: rgba(0, 0, 0, 0.10);
+    border-radius: 22px;
+    background: rgba(174,174,174, 0.1);
     backdrop-filter: blur(2px);
 }
 .week{
