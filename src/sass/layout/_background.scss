@@ -1,14 +1,18 @@
 .background {
-    background-image: url('/images/sky.jpg');
+    background-image: linear-gradient(to right, rgba(62, 56, 56, 0.3), rgba(0, 0, 0, 0.3)), 
+    url('/images/im.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 320px;
-    height: auto;
-    margin-top: 3px;
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-bottom: 3px;
+    height:700px;
+    // margin-top: 3px;
+    // margin-left: 3px;
+    // margin-right: 3px;
+    // margin-bottom: 3px;
 
     @media screen and (min-width: 768px) {
-
+        width: 768px;
+        height: 679px;
         background-image: url('/images/sky.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -17,17 +21,21 @@
         margin-right: 10px;
         margin-bottom: 5px;
         border-radius: 13px;
-        width: 768px;
-        height: 679px;
+        // filter: none;
+
     }
 
     @media screen and (min-width: 1200px) {
-        background-image: url('/images/sky.jpg');
         width: 1200px;
         height: 679px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url('/images/sky.jpg');
+        // background-image: url('/images/sky.jpg');
+        // filter: none;
 
     }
 }
+
 // .background 
 //  {
 //     background: linear-gradient(0deg, rgba(72, 80, 71, 1) 26%, rgba(91, 90, 78, 1) 33%, rgba(185, 165, 144, 1) 86%);
