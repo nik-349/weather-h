@@ -1,31 +1,34 @@
     <header id="header-en">
-        <div class="navigation__bar container">
-            <svg class="logo__svg">
-                <use class="logo__svg--image" href="./images/sprite.svg#icon-apachekafka"></use>
+<div class="container header__container ">
+    <div class="header__module">
+        <a href=""><object id="sun-shine" type="image/svg+xml" data="./images/animated-icon/cloudy.svg"></object></a>
+        <ul class="navigation__list">
+            <li class="navigation__list-item">
+                <svg class="favorites__icon">
+                <use class="" href="./images/sprite.svg#star-empty"></use>
             </svg>
-            <li class="header__logo--list"><a class="header__logo" href="">Nik<span
-                        class="header__logo--span">Gavriluk</span></a></li>
-            <ul class="flex-container">
-                <li class="navigation__bar--list"><a class="navigation__bar--link" href="">Galery</a></li>
-                <li class="navigation__bar--list"><a class="navigation__bar--link" href="">History</a></li>
-                <li class="navigation__bar--list"><a class="navigation__bar--link" href="">Project</a></li>
-                <!-- <li id="menu-line">----</li> -->
-            </ul>
-            <button class="button__nav" type="button"><svg class="button__svg--login">
-                    <use class="" href="./images/sprite.svg#icon-key"></use>
-                </svg></button>
-            <button class="button__nav" type="button" id="language-button"><svg class="button__svg--lang">
-                    <use class="" href="./images/sprite.svg#icon-global"></use>
-                </svg></button>
-        </div>
-        <div class="overlay-language visually-hidden" id="overlay-lang-container">
-            <p class="lang__module visually-hidden">Мова</p>
-            <p class="lang__module ">Language</p>
-            <div class="land__module--block">
-                <a class="lang__module--href" href="">UK</a>
-                <a class="lang__module--href" href="">EN</a>
-            </div>
-        </div>
+        </li>
+            <li class="navigation__list-item">
+                <svg class="settings__icon">
+                <use class="" href="./images/sprite.svg#cog"></use>
+            </svg>
+        </li>
+        </ul>
+    </div>
+    <div class="form__country-module">
+        <form class="form__search" action="">
+            <input class="form__search-input" type="text" name="country" id="search-input" placeholder="Search places">
+            <button class="form__search-button " type="submit" disabled>Search</button>
+            <svg class="circle">
+            <use class="" href="./images/sprite.svg#circle"></use>
+        </svg>
+        <svg class="circle__small">
+            <use class="" href="./images/sprite.svg#circle"></use>
+        </svg>
+        </form>
+    </div>
+    
+</div>
     </header>
 
 

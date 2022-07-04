@@ -1,0 +1,15 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-weather_icon_full_sun" viewBox="0 0 32 32">
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M16 20.5v1.5"></path>
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M12.818 19.182l-1.061 1.061"></path>
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M11.5 16h-1.5"></path>
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M12.818 12.818l-1.061-1.061"></path>
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M16 11.5v-1.5"></path>
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M19.182 12.818l1.061-1.061"></path>
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M20.5 16h1.5"></path>
+<path fill="none" stroke="#ffa500" style="stroke: var(--color2, #5cc9e7)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M19.182 19.182l1.061 1.061"></path>
+<path fill="#ffa500" style="fill: var(--color1, #ffa500); stroke: var(--color1, #ffa500)" stroke="#ffa500" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1" d="M18.5 16c0 1.381-1.119 2.5-2.5 2.5s-2.5-1.119-2.5-2.5c0-1.381 1.119-2.5 2.5-2.5s2.5 1.119 2.5 2.5z"></path>
+</symbol>
+</defs>
+</svg>

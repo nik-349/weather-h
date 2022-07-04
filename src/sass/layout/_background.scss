@@ -1,3 +1,18 @@
+.background__mobile{
+    background-color: #1C182C;
+    width: 100%;
+    height: 200px;
+    @media screen and (min-width: 320px) {
+}
+@media screen and (min-width: 768px) {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    display: none;
+}
+}
+
+
 .background {
     background-image: linear-gradient(to right, rgba(62, 56, 56, 0.3), rgba(0, 0, 0, 0.3)), 
     url('/images/mount.jpg');

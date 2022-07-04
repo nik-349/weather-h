@@ -1,131 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nik</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet">
-  </head>
-  <body class="wrapper">
-    <div class="background ">
-      <div class="container ">
-      <header class="header__navigation  ">
-        <div class="burger__menu ">
-          <svg class="burger__in ">
-            <use class="" href="./images/sprite.svg#icon-lines"></use>
-          </svg>
-          <svg class="burger__exit visually-hidden">
-            <use class="" href="./images/sprite.svg#icon-exit"></use>
-          </svg>
-          <div class="module__burger visually-hidden"></div>
+</head>
+
+<body>
+
+        <div class="wrapper background__mobile">
+            <include src="./partials/header.html"></include>
+            <main>
+                <!-- <section class="section"> -->
+                    <!-- <include src="./partials/film-list.html"></include> -->
+                    <!-- <div id="pagination" class="tui-pagination"></div> -->
+                <!-- </section> -->
+            </main>
+        
+            <!-- <include src="./partials/footer.html"></include> -->
+        
+            <!-- Нижче додаються модальні вікна -->
+            <!-- <include src="./partials/authModal.html"></include> -->
+            <!-- <include src="./partials/modal-team.html"></include> -->
+            <!-- <include src="./partials/cardModal.html"></include> -->
+            <!-- <include src="./partials/scroll-btn.html"></include> -->
         </div>
-        <div class="navigation__list">
-          <ul class="navigation__list--container">
-            <!-- <button class="navigation__list--item login__button general__text--style" type="button" href="">SING IN</button> -->
-            <!-- <a class="navigation__list--item general__text--style" href="">SEARCH</a> -->
-            <form action="" class="search__form">
-              <button type="button" class="search__button--ip">
-                <svg class="search__icon--ip">
-                  <use class="" href="./images/sprite.svg#icon-location"></use>
-                </svg>
-              </button>
-              <button type="button" class="search__button">
-                <svg class="search__icon">
-                  <use class="" href="./images/sprite.svg#icon-search"></use>
-                </svg>
-              </button>
-              <input class="search__input visually-hidden" type="text" placeholder="search country">
-            </form>
-          </ul>
-        </div>
-        <a class="logo general__text--style " href="">
-          <span class="logo__letter general__text--style">W</span>eather</a>
-        <div class="social__list">
-          <ul class="social__list--container">
-            <a class="social__list--icon" href="https://github.com/nik-349/weather-h.git"><svg class="social__link">
-              <use class="" href="./images/sprite.svg#icon-git"></use>
-            </svg></a>
-            <a class="social__list--icon" href="https://www.linkedin.com/in/nick-gavriluk-682983238/"><svg class="social__link">
-              <use class="" href="./images/sprite.svg#icon-linkedin2"></use>
-            </svg></a>
-            <a class="social__list--icon" href="https://www.instagram.com/nikolaj.gavriluk/"><svg class="social__link">
-              <use class="" href="./images/sprite.svg#icon-instagram"></use>
-            </svg></a>
-          </ul>
-        </div>
-        <!-- <form action="" class="search__form--tablet">
-        <input class="search__input" type="text" placeholder="search country">
-        <button type="button" class="search__button">
-          <svg class="search__icon">
-          <use class="" href="./images/sprite.svg#icon-search"></use>
-        </svg>
-      </button>
-    </form> -->
-      
-      </header>
-      <form action="" class="search__form--mobile">
-        <input class="search__input" type="text" placeholder="search country">
-        <button type="button" class="search__button">
-          <svg class="search__icon">
-            <use class="" href="./images/sprite.svg#icon-search"></use>
-          </svg>
-        </button>
-      </form>
-      <section class="module__weather">
-      <div class="module__weather--country">
-      <div class="module__weather--info day">
-      </div>
-      <div class="module__weather--info other"></div>
-      <div class="module__weather--info week">
-        <div class="week__day">
-          <p class="general__text--style ">MON</p>
-        </div>
-        <div class="week__day">
-          <p class="general__text--style ">TUE</p>
-        </div>
-        <div class="week__day">
-          <p class="general__text--style ">WED</p>
-        </div>
-        <div class="week__day">
-          <p class="general__text--style ">THU</p>
-        </div>
-        <div class="week__day">
-          <p class="general__text--style ">FRI</p>
-        </div>
-        <div class="week__day">
-          <p class="general__text--style ">SAT</p>
-        </div>
-        <div class="week__day">
-          <p class="general__text--style ">SUN</p>
-        </div>
-      </div>
-      </div>
-      
-     </section>
-      </div>
 
 
-    <div class="sing__in--backdrop visually-hidden">
-      <div class="sing__in--form ">
-        <h1 class="general__text--style">Authorization</h1>
-        <form action="">
-          <input class="input__form" type="text" name="login" placeholder="Login">
-          <input class="input__form" type="text" name="password" placeholder="Password">
-          <button class="login__button" type="button">Sing in</button> 
-        </form>
-        <button class="login__button" type="button">Sing up</button>
-      </div>
-    </div>
-      
-    </div>
- </body>
+</body>
 <script src="./index.js"></script>
+
 </html>
