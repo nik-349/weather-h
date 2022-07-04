@@ -72,7 +72,6 @@
     // padding-left: 55px;
 }
 .form__search-input{
-    position: relative;
     @media screen and (min-width: 320px) {
             margin-top: 20px;
             padding-left: 55px;
@@ -96,6 +95,7 @@
 .form__country-module{
     display: flex;
     justify-content: center;
+    position: relative;
     @media screen and (min-width: 320px) {
 
         }
@@ -148,8 +148,8 @@
 //========================================icon==================================//
 .circle{
     position: absolute;
-    top: 40px;
-    left: 160px;
+    bottom: -8px;
+    left: 30px;
     width: 23px;
     fill: antiquewhite;
     @media screen and (min-width: 320px) {}
@@ -164,8 +164,8 @@
 }
 .circle__small{
     position: absolute;
-    top: 52px;
-    left: 180px;
+    top: -17px;
+    left: 52px;
     width: 5px;
     fill: antiquewhite;
 
@@ -204,6 +204,13 @@
     @media screen and (min-width: 1024px) {
         display: none;
     }
+}
+.favorites__icon:hover{
+    fill: gold;
+    
+}
+.settings__icon:hover{
+    fill: #7489D4;
 }
 
 
