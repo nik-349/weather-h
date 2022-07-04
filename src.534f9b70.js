@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"/home/runner/work/weather-h/weather-h/src/images/mount.jpg":[["mount.cd3ae5f3.jpg","yamn"],"yamn"],"/home/runner/work/weather-h/weather-h/src/images/sky.jpg":[["sky.d127a388.jpg","QY4Q"],"QY4Q"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/weather-h/src.9daf38a4.js.map
+//# sourceMappingURL=/weather-h/src.534f9b70.js.map
